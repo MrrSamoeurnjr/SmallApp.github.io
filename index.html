@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="pro20.css">
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo"><span>E</span>Commerce</a>
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content">
+                    <!-- <div class="cart-box">
+                        <img src="https://www.thule.com/-/p/BqQQ3zv_GsS7myXOsY5vM26sDG7AlIzKP_qxV_zBNXA/rs:fit/h:991/cb:1.4/w:991/plain/approved/std.lang.all/25/72/1382572.png" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-product-title">BACKPACK</div>
+                            <div class="cart-price">$25.5</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+                        <i class='bx bxs-trash-alt cart-remove'></i>
+                    </div> -->
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <button type="button" class="btn-buy">Buy Now</button>
+                <i class='bx bx-window-close' id="cart-close"></i>
+            </div>
+        </div>
+    </header>
+    <section class="shop container">
+        <section class="section-title">Shop Products</section>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/8a611231-947a-4c84-8de5-2202e2fb12f5/air-max-97-og-mens-shoes-zV9FQs.png" alt="" class="product-imag">
+                <h2 class="product-title">Nike Shoes</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-store   add-cart'  class=""></i>
+            </div>
+            <div class="product-box">
+                <img src="https://www.thule.com/-/p/BqQQ3zv_GsS7myXOsY5vM26sDG7AlIzKP_qxV_zBNXA/rs:fit/h:991/cb:1.4/w:991/plain/approved/std.lang.all/25/72/1382572.png" alt="" class="product-imag">
+                <h2 class="product-title">BACKPACK</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-store   add-cart'  class=""></i>
+            </div>
+            <div class="product-box">
+                <img src="https://cdn-img-compress.api.pens.com/compress-img?imageUrl=https%3A%2F%2Fassets.documents.cimpress.io%2Fv2%2Ffulfillers%2F123815948%2Fcompositions%2Fc2cd2b2f-40d1-4cec-b068-a2ff165cc101%2Fassets%2F0aeb1b9e-94f8-480a-9c72-bfee7d649561&width=610&height=610" alt=""   class="product-imag">
+                <h2 class="product-title">METAL BOTTEL</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-store   add-cart'  class=""></i>
+            </div>
+            <div class="product-box">
+                <img src="https://johnlewis.scene7.com/is/image/JohnLewis/236474999?$fashion-ui$" alt=""    class="product-imag">
+                <h2 class="product-title">METAL SUNGLALSSES</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-store   add-cart'  class=""></i>
+            </div>
+            <div class="product-box">
+                <img src="https://www.customcontrollers.com/cdn/shop/products/Front-black-min_2c7e4a7f-7d86-4b14-ad51-8408f8fd49da.png?v=1666277679&width=1000" alt=""  class="product-imag">
+                <h2 class="product-title">P55 Contoller</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-store   add-cart'  class=""></i>
+            </div>
+            <div class="product-box">
+                <img src="https://helios-i.mashable.com/imagery/articles/03OjqABNOBs2KvOM3PzSoAE/hero-image.fill.size_1248x702.v1690227849.jpg" alt=""  class="product-imag">
+                <h2 class="product-title">Galaxy Z Fold</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-store   add-cart'  class=""></i>
+            </div>
+            <div class="product-box">
+                <img src="https://www.laorlaorcamerashop.com/Content/Upload/Item/280c77b8-bfe2-4457-93e8-142ab1491438.jpg" alt=""   class="product-imag">
+                <h2 class="product-title">Nokon Camera</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-store   add-cart'  class=""></i>
+            </div>
+            <div class="product-box">
+                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MT3U3ref_VW_34FR+watch-case-45-aluminum-pink-nc-s9_VW_34FR+watch-face-45-aluminum-pink-s9_VW_34FR_WF_CO_GEO_CA?wid=2000&hei=2000&fmt=png-alpha&.v=1694507905569" alt=""   class="product-imag">
+                <h2 class="product-title">Apple Watch</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-store   add-cart'  class=""></i>
+            </div>
+        </div>
+    </section>
+    <script src="20.js"></script>
+</body>
+</html>
